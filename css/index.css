@@ -1,0 +1,41 @@
+body{
+    margin: 0 auto; 
+     padding: 0;
+}
+
+
+.MasterCart{
+    width: 250px;
+    height: 145px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.k1{
+    width: 70px;
+    height: 70px;
+    background: red;
+    border-radius: 50%;
+    position: relative;
+    left: 10px;
+}
+
+.k2{
+    width: 70px;
+    height: 70px;
+    background: yellow;
+    border-radius: 50%;
+    position: relative;
+    right: 10px;
+    opacity: 0.9;
+}
+.Word{
+    position: absolute;
+    bottom: 15px;
+    left: 90px;
+}
